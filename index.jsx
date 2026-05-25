@@ -12,11 +12,17 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <Link className="site-logo" to="/">#VanLife</Link>
-        <nav>
-          <Link to="/about">About</Link>
-          <Link to="/vans">Vans</Link>
-        </nav>
+        <div className="container">
+          <div className="header">
+            <Link className="site-logo" to="/">#VanLife</Link>
+            <nav>
+              <Link to="/about">About</Link>
+              <Link to="/vans">Vans</Link>
+            </nav>
+          </div>
+          
+        </div>
+        
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
