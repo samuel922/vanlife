@@ -25,6 +25,16 @@ body {
 
 header {
     height: 110px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-block: 10px;
