@@ -14,6 +14,7 @@ export default function About() {
             <div className="about-page-cta">
                 <h2>Your destination is waiting.<br />Your van is ready.</h2>
                 <Link className="link-button" to="/vans">Explore our vans</Link>
+                <p>This is a simple paragraph for demonstration purposes.</p>
             </div>
         </div>
     );
