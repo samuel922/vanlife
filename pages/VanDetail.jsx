@@ -5,6 +5,7 @@ export default function VanDetail() {
         <div className="container">
             <h1>Van detail page goes here</h1>
             <p>This is where the van detail information will be displayed.</p>
+            <p>This is another paragraph from main branch.</p>
         </div>
     )
 }
