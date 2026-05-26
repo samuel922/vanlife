@@ -18,8 +18,23 @@ body {
   scrollbar-width: none;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
     height: 110px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-block: 10px;
