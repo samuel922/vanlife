@@ -6,6 +6,7 @@ export default function VanDetail() {
             <h1>Van detail page goes here</h1>
             <div className="van-details">
                 <p>This is where the van detail information will be displayed.</p>
+                <p> This is a demonstration on git stashing</p>
             </div>
             
         </div>
