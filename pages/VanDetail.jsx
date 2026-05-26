@@ -7,8 +7,8 @@ export default function VanDetail() {
             <div className="van-details">
                 <p>This is where the van detail information will be displayed.</p>
                 <p> This is a demonstration on git stashing</p>
-            </div>
-            
+                <p>This is another paragraph from main branch.</p>
+            </div>         
         </div>
     )
 }
